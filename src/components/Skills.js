@@ -13,17 +13,17 @@ const Skills = () => {
                         <p>I build creative, responsive web applications using HTML5, CSS3, JavaScript, JQuery, Bootstrap and much more...</p>
                     </div>
                 <div className="col-lg-6">
-                    <img src="" className="logo" alt="html5 logo"/>
-                    <img src="" className="logo" alt="css3 logo"/>
-                    <img src="" className="logo img-shape" alt="bootstrap logo"/>
-                    <img src="" className="logo img-shape" alt="bulma logo"/>
-                    <img src="" className="logo" alt="html5 logo"/>
-                    <img src="" className="logo" alt="jquery logo"/>
-                    <img src="" className="logo img-shape" alt="api logo"/>
-                    <img src="" className="logo" alt="node logo"/>
-                    <img src="" className="logo" alt="mysql logo"/>
-                    <img src="" className="logo img-shape" alt="sequelize logo"/>
-                    <img src="" className="logo img-shape" alt="handlebars logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/html5.png`} className="logo" alt="html5 logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/css3.png`} className="logo" alt="css3 logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/bootstrap.png`} className="logo img-shape" alt="bootstrap logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/bulma.png`} className="logo img-shape" alt="bulma logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/javascript.png`} className="logo" alt="js logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/jquery.jpg`} className="logo" alt="jquery logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/api1.png`} className="logo img-shape" alt="api logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/node.png`} className="logo" alt="node logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/mysql.png`} className="logo" alt="mysql logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/sequelize-logo.png`} className="logo img-shape" alt="sequelize logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/handlebars.png`} className="logo img-shape" alt="handlebars logo"/>
                 </div>
                 </div>
             </section>          

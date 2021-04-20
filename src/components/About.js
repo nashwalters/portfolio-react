@@ -10,7 +10,7 @@ const About = () => {
             <section class= "container">
                 <div class="row justify-content-between">
                     <div class="col-lg-4 text-center">
-                        <img src="" alt=""/>
+                        <img src={`${process.env.PUBLIC_URL}/img/nash1.jpg`} alt="nash"/>
                     </div>
                     <div class="col-lg-7">
                         <h3 class="text-center">About Me</h3>
@@ -19,7 +19,7 @@ const About = () => {
                         <p>My unique background in the Hospitality and Retail Management gives me an edge as I know the importance of delivering a superior product with excellent customer service. </p>
                         <p>Interested in working together? Take a look at my most recent projects. Please feel free to contact me for projects and collaborations. </p>
                     <div class="text-center">
-                        <Link to="" target="_blank"><button class="nav-btn link link-btn">Check out my CV</button></Link>
+                        <Link to={`${process.env.PUBLIC_URL}img/Nashica -Walters-Resume.docx.pdf`} target="_blank"><button class="nav-btn link link-btn">Check out my CV</button></Link>
                         <Link to="/projects"><button class=" nav-btn link link-btn">Projects</button></Link>
                         <Link to="/contact"><button class=" nav-btn link link-btn">Contact Me</button></Link>
                     </div>
