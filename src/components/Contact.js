@@ -33,7 +33,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <div class="form-group">
+                            <div className="form-group">
                                 <input 
                                     type="email" 
                                     name="email" 
@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div className="col-md-12">
-                            <div class="form-group">
+                            <div className="form-group">
                                 <textarea 
                                     rows="6" 
                                     name="message" 

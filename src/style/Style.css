@@ -112,9 +112,12 @@ a {
 /*Projects section*/
 .main-title {
     text-align: center;
+    
 }
+
 .center{
     text-align: center;
+    color: white !important;
 }
 .gallery img{
     height: 240px;
