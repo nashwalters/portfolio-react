@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
+import "../style/Style.css"
 
 const Skills = () => {
     return ( 

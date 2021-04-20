@@ -5,7 +5,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
             <div className="Content">
                 <Switch>
                     <Route exact path="/">
-                        <Header/>
+                        <Header />
                     </Route>
                     <Route path="/about">
                         <About/>

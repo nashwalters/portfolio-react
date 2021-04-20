@@ -16,7 +16,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="row" id="gallery">
+                <div className="row gallery">
                     <div className="col-12 col-sm-6 col-lg-4">
                         <h3 className="center">SPLI₮ISH</h3>
                         <img className="w-100" src={`${process.env.PUBLIC_URL}/img/splitish.png`} alt="splitish app"/>

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
+import "../style/Style.css"
 
 const Contact = () => {
     return (
