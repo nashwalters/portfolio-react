@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
-import "../style/Navbar.css"
+import "../style/style.css"
 const Navbar = () => {
     return ( 
         <nav className="navbar navbar-expand-lg navbar-light bg-color">

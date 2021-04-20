@@ -4,11 +4,11 @@ body {
 } 
 h3 {
     color:orange;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 h6 {
     color: orange;
-    margin-top: 10px;
+    margin-top: 0.625rem;
 }
 .text {
     color: white;
@@ -19,6 +19,9 @@ h6 {
 p {
     color: #d3d3d3;
     text-align: justify;
+}
+li {
+    padding-right: 50px;
 }
 /*Header Styles*/
 h1 {
@@ -72,15 +75,15 @@ a {
     margin-top: 0;
 }
 .link-btn {
-    width: 160px;
-    border: 1px solid orange;
+    width: 10rem;
+    border: 0.063rem solid orange;
     outline: none;
     background-color: transparent;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 .link-btn:hover {
     color:#d3d3d3;
-    border: 1px solid #d3d3d3;
+    border: 0.063rem solid #d3d3d3;
     outline: none;
 }
 .link {
@@ -90,6 +93,12 @@ a {
     color: #d3d3d3 !important;
 }
 /*Skills section */
+.skills {
+    margin-top: 3.125rem;
+}
+.pics {
+    margin-top: 3.125rem;
+}
 .logo {
     margin-top: 5px;
     margin-bottom: 5px;
