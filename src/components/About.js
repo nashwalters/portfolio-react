@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Link } from 'react-router-dom';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../style/About.css"
+import "../style/style.css"
 
 const About = () => {
     return (
         <main>
             <Navbar />
-            <section className= "container">
+            <section className= "container ">
                 <div className="row justify-content-between">
                     <div className="col-lg-4 text-center">
                         <img src={`${process.env.PUBLIC_URL}/img/nash1.jpg`} className="photo" alt="nash"/>
