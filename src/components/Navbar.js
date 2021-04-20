@@ -9,13 +9,13 @@ const Navbar = () => {
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-                <div className="navbar-nav mx-auto">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/skills">Skills</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>  
-                </div>
+                <ul className="navbar-nav mx-auto">
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/skills">Skills</Link></li>
+                    <li><Link to="/projects">Projects</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>  
+                </ul>
             </div>
         </nav>
     );

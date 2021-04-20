@@ -1,4 +1,6 @@
 import React from 'react';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return ( 
@@ -7,14 +9,14 @@ const Header = () => {
                 <h1 className="display-4 display">NASHICA WALTERS</h1>
                 <h2 className="display">Full- Stack Web Developer</h2>
                 <nav className="nav flex-column">
-                    <a className="nav-link" href="#"><button className="nav-btn">More About Me</button></a>
-                    <a className="nav-link" href="#"><button className="nav-btn">See My Work</button></a>
-                    <a className="nav-link" href="#"><button class="nav-btn">Contact Me</button></a>
+                    <Link to="/about"><button className="nav-btn">More About Me</button></Link>
+                    <Link to="/projects"><button className="nav-btn">See My Work</button></Link>
+                    <Link to="/contact"><button className="nav-btn">Contact Me</button></Link>  
                 </nav>
                 <ul class="nav justify-content-center">
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/nashica-walters/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/nashwalters" target="_blank"><i class="fab fa-github"></i></a> </li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/nbryce_/" target="_blank"><i class="fab fa-instagram"></i></a> </li>
+                    <li class="nav-item"><Link to={{ pathname: "https://www.linkedin.com/in/nashica-walters/"}} target="_blank"><i class="fab fa-linkedin-in"></i></Link></li>
+                    <li class="nav-item"><Link to={{ pathname: "https://github.com/nashwalters" }} target="_blank"><i class="fab fa-github"></i></Link> </li>
+                    <li class="nav-item"><Link to={{ pathname: "https://www.instagram.com/nbryce_/" }}  target="_blank"><i class="fab fa-instagram"></i></Link> </li>
                 </ul>
             </div>
         </main>
