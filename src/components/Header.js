@@ -1,12 +1,12 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from 'react-router-dom';
-import "../style/Header.css"
+import "../style/style.css"
 
 const Header = () => {
     return ( 
-        <main className="jumbotron vh-100 mb-0 bg-color">
-            <div className="container vertical-center">
+        <main >
+            <div className="jumbotron vh-100 mb-0 bg-color">
                 <h1 className=" display">NASHICA WALTERS</h1>
                 <h2 className="display">Full- Stack Web Developer</h2>
                 <nav className="nav flex-column">
