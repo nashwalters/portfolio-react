@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 import "../style/style.css"
 
 const Skills = () => {
@@ -30,7 +31,8 @@ const Skills = () => {
                     <img src={`${process.env.PUBLIC_URL}/img/react.png`} className="logo img-shape" alt="react logo"/>
                 </div>
                 </div>
-            </section>          
+            </section>
+            <Footer />          
         </main>
     );
 }

@@ -1,22 +1,24 @@
+import React from "react";
+import { Link } from 'react-router-dom';
+
+const Footer = () => {
+    return ( 
+        <div className="footer">
+            <h6>Lets Link Up!</h6>
+        <ul className="nav justify-content-center">
+            <li className="nav-item"><Link to={{ pathname: "https://www.linkedin.com/in/nashica-walters/"}} target="_blank"><i className="fab fa-linkedin-in"></i></Link></li>
+            <li className="nav-item"><Link to={{ pathname: "https://github.com/nashwalters" }} target="_blank"><i className="fab fa-github"></i></Link> </li>
+            <li className="nav-item"><Link to={{ pathname: "https://www.instagram.com/nbryce_/" }}  target="_blank"><i className="fab fa-instagram"></i></Link> </li>
+        </ul>
+        <h6> &copy;copyright 2021</h6>
+        </div>
+        
+    );
+}
+ 
+export default Footer;
 
 
 
 
 
-
-<div class="col-lg-2">
-                    <div class="contact-info">
-                        <h6 class="text-center">Please feel free to contact me regarding work!</h6>
-                        <ul class="contact-info-items nav flex-column justify-content-center">
-                            <li><i class="fas fa-map-marker-alt box"></i>   : Ontario, Canada </li>
-                            <li><i class="fas fa-phone box"></i>   : +1.780.933.0864</li>
-                            <li><i class="fas fa-paper-plane box"></i>   : nashicawalters@gmail.com</li>
-                            <li><i class="fas fa-globe box"></i>   : github.com/nashwalters</li>
-                        </ul>
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item"><Link to={{ pathname: "https://www.linkedin.com/in/nashica-walters/"}} target="_blank"><i class="fab fa-linkedin-in"></i></Link></li>
-                            <li class="nav-item"><Link to={{ pathname: "https://github.com/nashwalters" }} target="_blank"><i class="fab fa-github"></i></Link> </li>
-                            <li class="nav-item"><Link to={{ pathname: "https://www.instagram.com/nbryce_/" }}  target="_blank"><i class="fab fa-instagram"></i></Link> </li>
-                        </ul>
-                    </div>
-                </div>
