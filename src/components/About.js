@@ -21,7 +21,7 @@ const About = () => {
                         <p>My unique background in the Hospitality and Retail Management gives me an edge as I know the importance of delivering a superior product with excellent customer service. </p>
                         <p>Interested in working together? Take a look at my most recent projects. Please feel free to contact me for projects and collaborations. </p>
                     <div className="text-center">
-                        <Link to={`${process.env.PUBLIC_URL}img/Nashica -Walters-Resume.docx.pdf`} target="_blank"><button class="nav-btn link link-btn">Check out my CV</button></Link>
+                        <a href= "../image/Nashica -Walters-Resume.docx.pdf" target="_blank"><button class="nav-btn link link-btn">Check out my CV</button></a>
                         <Link to="/projects"><button className=" nav-btn link link-btn">Projects</button></Link>
                         <Link to="/contact"><button className=" nav-btn link link-btn">Contact Me</button></Link>
                     </div>

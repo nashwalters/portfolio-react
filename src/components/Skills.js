@@ -27,7 +27,7 @@ const Skills = () => {
                     <img src={`${process.env.PUBLIC_URL}/img/mysql.png`} className="logo" alt="mysql logo"/>
                     <img src={`${process.env.PUBLIC_URL}/img/sequelize-logo.png`} className="logo img-shape" alt="sequelize logo"/>
                     <img src={`${process.env.PUBLIC_URL}/img/handlebars.png`} className="logo img-shape" alt="handlebars logo"/>
-                    <img src={`${process.env.PUBLIC_URL}/img/mongo.gif`} className="logo img-shape" alt="mongo logo"/>
+                    <img src={`${process.env.PUBLIC_URL}/img/Mongo.gif`} className="logo img-shape" alt="mongo logo"/>
                     <img src={`${process.env.PUBLIC_URL}/img/react.png`} className="logo img-shape" alt="react logo"/>
                 </div>
                 </div>
