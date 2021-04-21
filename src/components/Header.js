@@ -5,8 +5,7 @@ import "../style/style.css"
 
 const Header = () => {
     return ( 
-        <main >
-            <div className="jumbotron vh-100 mb-0 bg-color">
+        <main >           
                 <h1 className=" display">NASHICA WALTERS</h1>
                 <h2 className="display">Full- Stack Web Developer</h2>
                 <nav className="nav flex-column">
@@ -19,7 +18,6 @@ const Header = () => {
                     <li className="nav-item"><a href="https://github.com/nashwalters" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a> </li>
                     <li className="nav-item"><a href="https://www.instagram.com/nbryce_/"   target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a> </li>
                 </ul>
-            </div>
         </main>
     );
 }
