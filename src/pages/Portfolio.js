@@ -15,6 +15,7 @@ const Portfolio = () => {
             {projects.map(project => {
                 return (
                 <Project
+                    key={project.key}
                     title={project.title}
                     img={project.img}
                     github={project.github}

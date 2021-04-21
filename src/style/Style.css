@@ -125,13 +125,14 @@ a {
     margin-top: 2.5rem;
     margin-bottom: 1.875rem;
 }
-
 .center{
+    margin-top: 50px;
     text-align: center;
     color: white !important;
 }
 .gallery {
-    height: 500px;
+    height: 25rem;
+    width: 25rem;
     margin-top: 0.938rem;
     margin-bottom: 0.625rem;
     box-shadow:0.063rem 0.063rem 0.188rem 0.188rem #888888;
