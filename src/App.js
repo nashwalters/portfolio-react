@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Projects from "./components/Projects";
+import Project from "./components/Project";
 import Contact from "./components/Contact";
 
 
@@ -24,7 +24,7 @@ function App() {
                         <Skills/>
                     </Route>
                     <Route path="/projects">
-                        <Projects/>
+                        <Project/>
                     </Route>
                     <Route path="/contact">
                         <Contact/>

@@ -1,10 +1,29 @@
 import React from "react";
+import { useState } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/style.css"
 
 const Contact = () => {
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [body, setBody] = useState("");
+    
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const info = { name, email, body};
+
+        fetch('http://localhost:3000/contact/', {
+        method: 'POST',
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(info)
+        }).then(() => {
+           setName("");
+           setEmail("");
+           setBody("")
+        })
+  }
     return (
         <main>
             <Navbar/>
@@ -18,25 +37,49 @@ const Contact = () => {
             </div>
             <div className="row">
                 <div className="col-lg-8">
-                    <form id="contact-form">
+                    <form onSubmit={handleSubmit}>
                         <div className="row">
                            <div className="col-md-6">
                               <div className="form-group">
-                                 <input type="text" name="name" className="form-control" id="first-name" placeholder="Name *" required="required"/>
-                              </div>
-                           </div>
-                           <div className="col-md-6">
-                              <div className="form-group">
-                                 <input type="email" name="email" className="form-control" id="email" placeholder="Email *" required="required"/>
-                              </div>
-                           </div>
-                           <div className="col-md-12">
-                              <div className="form-group">
-                                   <textarea rows="6" name="message" className="form-control" id="description" placeholder="Message *" required="required"></textarea>
-                              </div>
-                           </div>
+                                    <input 
+                                        type="text" 
+                                        value= {name}
+                                        className="form-control" 
+                                        placeholder="Name *" 
+                                        required
+                                        onChange={(e) => setName(e.target.value)}
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="form-group">
+                                    <input 
+                                        type="email" 
+                                        value={email}
+                                        className="form-control" 
+                                        placeholder="Email *" 
+                                        required
+                                        onChange={(e) => setEmail(e.target.value)}
+                                    />
+                                </div>
+                            </div>
+                            <div className="col-md-12">
+                                <div className="form-group">
+                                    <textarea 
+                                        rows="6" 
+                                        value={body}
+                                        className="form-control" 
+                                        onChange={(e) => setBody(e.target.value)}
+                                        placeholder="Message *"
+                                        required >
+                                    </textarea>
+                                </div>
+                            </div>
                             <div className="col-md-12 text-center">
-                                <button id="submit" className="nav-btn link link-btn"type="submit" value="Send">Send Message</button>
+                                <button 
+                                    className="nav-btn link link-btn">
+                                    Send Message
+                                </button>
                             </div>
                         </div>
                     </form>
