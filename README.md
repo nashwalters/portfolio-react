@@ -12,7 +12,6 @@
 * [Description](#description)
 * [Technology](#technology)
 * [Screenshot](#screenshot)
-* [Screenshots](#screenshots)
 * [Credits](#credits)
 * [Contact](#contact)
 * [License](#license)
