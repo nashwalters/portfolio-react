@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "title": "SPLI₮ISH",
+        "img":"./img/splitish.png",
+        "github":"https://github.com/R-A-exe/Group5-Project2",  
+        "deploy": "https://project2nashfaroukroy.herokuapp.com/" 
+    },
+    {
+        "id": 2,
+        "title": "Eat-Da-Burger",
+        "img":"./img/burger.png",
+        "github":"https://github.com/nashwalters/burgers",  
+        "deploy": "https://sheltered-springs-21872.herokuapp.com/"
+    },
+    {
+        "id": 3,
+        "title": "Note Taker",
+        "img":"./img/note-taker.gif",
+        "github":"https://github.com/nashwalters/note-taker-expressjs",  
+        "deploy": "https://project2nashfaroukroy.herokuapp.com/"
+    },
+    {
+        "id": 4,
+        "title": "Team Generator",
+        "img":"./img/userprompt.gif",
+        "github":"https://github.com/R-A-exe/Group5-Project2",  
+        "deploy": "https://project2nashfaroukroy.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "title": "Vibe Cannon",
+        "img":"./img/vc.png",
+        "github":"https://github.com/CodyYuill/Vibe-Cannon",  
+        "deploy": "https://codyyuill.github.io/Vibe-Cannon/"
+    },
+    {
+        "id": 6,
+        "title": "Weather DashBoard",
+        "img":"./img/weather.png",
+        "github":"https://github.com/nashwalters/weather-dash",  
+        "deploy": "https://nashwalters.github.io/weather-dash/"
+    },
+    {
+        "id": 7,
+        "title": "Work Day Scheduler",
+        "img":"./img/wds.png",
+        "github":"https://github.com/nashwalters/day-scheduler",  
+        "deploy": "https://nashwalters.github.io/day-scheduler/"
+    },
+    {
+        "id": 8,
+        "title": "Javascript Quiz",
+        "img":"./img/quiz.png",
+        "github":"../https://github.com/nashwalters/js-quiz",  
+        "deploy": "https://nashwalters.github.io/js-quiz/"
+    },
+    {
+        "id": 9,
+        "title": "Password Generator",
+        "img":"./img/passwordg.png",
+        "github":"https://github.com/nashwalters/js-password-generator",  
+        "deploy": "https://nashwalters.github.io/js-password-generator/"
+    }
+  ]

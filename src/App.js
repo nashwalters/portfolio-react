@@ -4,8 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
-import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
                         <Skills/>
                     </Route>
                     <Route path="/projects">
-                        <Projects/>
+                        <Portfolio/>
                     </Route>
                     <Route path="/contact">
                         <Contact/>
